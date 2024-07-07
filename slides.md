@@ -28,7 +28,7 @@ mdc: true
 <div></div>
 Let's deconstruct the Everyday type's molecular makeup.
 
-<a target="blank" href="">Link to Repository</a>
+<a target="blank" href="https://github.com/Rolalove/Everyday-Types">Link to Repository</a>
  
 
 <div class="pt-12">
@@ -111,9 +111,9 @@ console.log(name)
 ```
 
 ```ts {monaco-run}
-let name: string ="Rola"
-name = 2;
-console.log(name)
+let name1: string ="Rola"
+name1 = 2;
+console.log(name1)
 ```
 
 <style scoped>
@@ -145,8 +145,8 @@ For an array <br>
 The any type is useful when you don’t want to write out a long type just to convince TypeScript that a particular line of code is okay.
 
 ```ts{monaco-run}
-let con = "word";
-con = "string"; 
+let con:any = "word";
+con = 300.7; 
 console.log(Math.round(con)); 
 ```
 
@@ -303,6 +303,7 @@ h1{
 ---
 
 # Interfaces
+<div></div>
 An interface declaration is another way to name an object type:
 interfaces are similar to type aliases, except they only apply to object type
 
